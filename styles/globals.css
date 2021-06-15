@@ -1,125 +1,129 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .App {
-  text-align: center;
-  background-image: url("/img/ilustracion_regreso_a_la_escuela.png");
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
+	text-align: center;
+	background-image: url("/beta/regreso-a-escuela/out/img/ilustracion_regreso_a_la_escuela.png");
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .btn-primary {
-  border: 0px;
-  border-radius: 25px !important;
-  border: 0px  !important; 
-  margin: 1px  !important;
- 
+	border: 0px;
+	border-radius: 25px !important;
+	border: 0px !important;
+	margin: 1px !important;
 }
 
 .btn-primary:active {
-  border: 0px !important; 
+	border: 0px !important;
 }
-.btn-primary.focus, .btn-primary:focus {
-  box-shadow: 0px !important;
-}
-
-.btn:focus{
-  box-shadow: 0px !important;
+.btn-primary.focus,
+.btn-primary:focus {
+	box-shadow: 0px !important;
 }
 
-.btn-primary:active .btn:active{
-  box-shadow: 0px !important;
+.btn:focus {
+	box-shadow: 0px !important;
 }
-.btn-primary:hover .btn:hover{
-  box-shadow: 0px !important;
+
+.btn-primary:active .btn:active {
+	box-shadow: 0px !important;
 }
-.btn-primary:not(:disabled):not(.disabled):active:focus{
-   box-shadow: 0px !important;
+.btn-primary:hover .btn:hover {
+	box-shadow: 0px !important;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+	box-shadow: 0px !important;
 }
 
 @keyframes mymove {
-  from {background-color: rgba(208, 255, 0, 0.796);}
-  to {background-color: rgba(255,255,255,0.1);}
+	from {
+		background-color: rgba(208, 255, 0, 0.796);
+	}
+	to {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
 }
 
-.animatediv{
- animation: mymove 2.5s infinite;
+.animatediv {
+	animation: mymove 2.5s infinite;
 }
-
 
 .modal-content {
-	background-color: rgba(0,0, 0, 0.5) !important;
-  border: 1px solid rgba(0,0,0,.2);
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.modal-header{
-  border-bottom: 0px !important;
+.modal-header {
+	border-bottom: 0px !important;
 }
 
-.modal-body{
-  background-color: #2EC97E !important ;
-  border: 5px solid #9A6638;
-  box-shadow: seagreen !important;
+.modal-body {
+	background-color: #2ec97e !important ;
+	border: 5px solid #9a6638;
+	box-shadow: seagreen !important;
 }
 
-.itemPizarra{
-  background-color: #066b3e  !important;
-  color: #FFF !important;
+.itemPizarra {
+	background-color: #066b3e !important;
+	color: #fff !important;
 }
 
-.btn-group, .btn-group-vertical {
+.btn-group,
+.btn-group-vertical {
 	position: relative !important;
 	display: flex !important;
 	vertical-align: middle !important;
