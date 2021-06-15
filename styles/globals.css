@@ -128,3 +128,7 @@ a {
 	display: flex !important;
 	vertical-align: middle !important;
 }
+
+.pizarra {
+	color: white !important;
+}

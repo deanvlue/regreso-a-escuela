@@ -29,7 +29,7 @@ function MyVerticallyCenteredModal(props) {
 				</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
-				<h3>Orientación socioemocional</h3>
+				<h3 className="pizarra">Orientación socioemocional</h3>
 				<hr></hr>
 				<ButtonGroup vertical size="lg">
 					{archivos.socioemocional.map((a) => {
@@ -46,7 +46,7 @@ function MyVerticallyCenteredModal(props) {
 						);
 					})}
 				</ButtonGroup>
-				<h3>Guias Pedagógicas</h3>
+				<h3 className="pizarra">Guias Pedagógicas</h3>
 				<hr></hr>
 				<ButtonGroup vertical size="lg">
 					{archivos.gpedagogicas.map((a) => {
@@ -63,7 +63,7 @@ function MyVerticallyCenteredModal(props) {
 						);
 					})}
 				</ButtonGroup>
-				<h3>Guias Pedagógicas</h3>
+				<h3 className="pizarra">Kit</h3>
 				<hr></hr>
 				<ButtonGroup vertical size="lg">
 					{archivos.kit.map((a) => {
